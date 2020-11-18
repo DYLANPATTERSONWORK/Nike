@@ -1,0 +1,145 @@
+@charset "UTF-8";
+#nav {
+    height: 100px;
+    border-bottom: 3px #4C8FBD solid;
+    margin-bottom: 1px;
+}
+#c_nav {
+    height: 100px;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+}
+#c_nav div {
+    float: left;
+}
+
+#logo {
+    height: 59px;
+    width: 117px;
+    background: url("<%=request.getContextPath()%>/img/logo.png") no-repeat;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#search {
+    width: 700px;
+    position: relative;
+    left:150px; 
+}
+#in {
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top: 27px;
+    border-radius: 6px;
+    border: 1px #DBDBDB solid;
+    font-size: 20px;
+}
+#su {
+    height: 40px;
+    width: 120px;
+    background: #4C8FBD;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: 27px;
+    border-radius: 6px;
+    border: 1px #4C8FBD solid;
+    cursor: pointer;
+}
+
+#img {
+    height: 450px;
+    background: #f5f5f5;
+}
+
+#c_img {
+    height: 450px;
+    text-align: center;
+    position: relative;
+    top: 2px;
+}
+#c_img ul li {
+    list-style: none;
+    
+}
+#con {
+    background: #f5f5f5;
+}
+#c_con {
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+    border: 1px #ccc solid;
+    clear: both;
+}
+#hot,#new {
+    width: 100px;
+    height: 50px;
+    background: #F6F6F6;
+}
+#new {
+    clear: both;
+}
+#hot ul li,#new ul li {
+    list-style: none;
+    height: 40px;
+}
+.pro {
+    float: left;
+    height: 340px;
+    width: 220px;
+    border: 1px #ccc solid;
+    margin: 5px 14px
+}
+
+.pro:HOVER {
+    border: 1px #4C8FBD solid;
+}
+
+.img {
+    height: 220px;
+    width: 220px;
+    text-align: center;
+}
+
+.pro_con {
+    height: 120px;
+    width: 220px;
+}
+
+.s1 {
+    font-size: 16px;
+    color: 4C8FBD;
+    font-weight: bold;
+}
+
+.s2 {
+    color: #333;
+}
+
+.s3 {
+    color: 4C8FBD;
+    font-size: 14px;
+}
+
+#c{
+    clear: both;
+}
+
+#copy {
+    height: 30px;
+    background: #4C8FBD;
+}
+
+#c_copy {
+    text-align: center;
+    color: #fff;
+    font-family: arial;
+    position: relative;
+    top: 7px;
+}
